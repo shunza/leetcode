@@ -5,6 +5,30 @@
 *.so
 *.dylib
 
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# vscode ignore
+.vscode/
+
+# vi ignore
+*.swp
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+*debug.test
+
+# system ignore
+.DS_Store
+Thumbs.db
+
 # Test binary, build with `go test -c`
 *.test
 
